@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: aliceblue;
+    padding: 20px;
+    flex-direction: column; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    width: 90%;
+    gap: 40px;
+}
+
+.facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.facebook-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    width: 320px;
+    height: 106px;
+}
+
+.facebook-text {
+    font-size: 24px;
+    color: black;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.wrapper {
+    width: 396px;
+    height: auto;
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrapper .box {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.box input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 0 15px;
+    font-size: 18px;
+    background-color: #f9f9f9;
+}
+
+.wrapper #login {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.wrapper #forgotten {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1877f2;
+    text-decoration: none;
+    margin: 15px 0;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.divider {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+.wrapper #register {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(0, 153, 0);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto 0;
+    display: block;
+}
+
+button:hover {
+    background-color: #155cb0;
+}
+
+
+.create-page {
+    position: relative;
+    right:-230px;
+    color: #555;
+    font-size: 0.9rem;
+    margin-top: 20px; 
+    
+}
+
+.create-page a {
+    color: #1877f2; 
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.create-page a:hover {
+    text-decoration: underline; 
+}
+
+footer{
+    background-color: white;
+    position:relative;
+    bottom:-200px;
+
+}
+.footer-contents{
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+footer ol{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 10px 0; 
+}
+footer ol:first-child{
+    border-bottom: 1px solid #dddfe2;
+}
+footer ol button{
+    background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    outline: none;
+    color: #4b4f56;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 2px;
+    padding: 0 8px;
+}
+
+footer ol li{
+    padding-right: 15px;
+    font-size: 12px;
+    color: #8a8d91;
+}
+footer ol li a{
+    text-decoration: none;
+    color: #8a8d91;
+}
+footer ol li a:hover{
+    text-decoration: underline;
+}
+footer small{
+    font-size: 11px;
+    color: #8a8d91;
+}
+
+
+
+
