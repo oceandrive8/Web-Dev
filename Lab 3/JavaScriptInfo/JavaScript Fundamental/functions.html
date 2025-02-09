@@ -1,0 +1,108 @@
+<!--TASK1. Is "else" required?-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkAge(age) {
+            if (age > 18) {
+                return true;
+            } else {
+                // actually else isn't required so we can remove it , result wiil be same
+                return confirm('Did parents allow you?');
+            }
+        } 
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+<!--TASK2. Rewrite the function using '?' or '||'-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function checkAge(age) {
+            return (age > 18) || confirm('Did parents allow you?');
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+<!--TASK3. Function min(a, b)-->
+min(2, 5) == 2
+min(3, -1) == -1
+min(1, 1) == 1
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function min(a, b) {
+            if (a < b) {
+                return a;
+            } else {
+                return b;
+            }
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+<!--TASK4. Function pow(x,n)-->
+pow(3, 2) = 3 * 3 = 9
+pow(3, 3) = 3 * 3 * 3 = 27
+pow(1, 100) = 1 * 1 * ...* 1 = 1
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function pow(x, n) {
+            let result = x;
+            for (let i = 1; i < n; i++) {
+                result *= x;
+            }
+            return result;
+        }
+        let x = prompt("x?", '');
+        let n = prompt("n?", '');
+        if (n < 1) {
+            alert(`Power ${n} is not supported, use a positive integer`);
+        } else {
+            alert( pow(x, n) );
+        }
+    </script>
+</body>
+</html>
