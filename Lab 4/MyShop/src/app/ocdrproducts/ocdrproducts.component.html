@@ -1,0 +1,24 @@
+<header>
+    <h1>Ocean Drive</h1>
+  </header>
+  <div class="container">
+    <aside class="sidebar">
+    </aside>
+    <div class="products-container">
+      <div class="product" *ngFor="let prod of products">
+        <h2>
+          <a class="items" [href]="prod.productLink" target="_blank">{{ prod.name }}</a>
+        </h2>
+        <p>{{ prod.description }}</p>
+        <p>Price: {{ prod.price }} ₸</p>
+        <p>Rating: {{ prod.rating }}</p>
+        <img [src]="prod.imageLink" [alt]="prod.name" width="100px">
+        <br>
+        <button type="button" (click)="sharing(prod.id)">Share</button>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  

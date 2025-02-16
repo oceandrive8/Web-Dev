@@ -1,0 +1,48 @@
+
+header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #ca77d5;
+    color: white;
+}
+  
+
+.container {
+    display: flex;
+}
+  
+
+.sidebar {
+    width: 200px;
+    background-color: #ffffff;
+    padding: 15px;
+}
+  
+
+.products-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 15px;
+}
+  
+
+.product {
+    width: calc(20% - 15px); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.product img {
+    width: 150px; 
+    height: 180px; 
+}
+  
+  
+  
+  
