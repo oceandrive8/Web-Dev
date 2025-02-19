@@ -1,0 +1,50 @@
+<header>
+  <h1>Ocean Drive</h1>
+</header>
+
+<div class="container">
+  <aside class="sidebar">
+    <button (click)="updateFilteredProducts(null)">Show All</button>
+    <button *ngFor="let category of categories" (click)="updateFilteredProducts(category)">
+      {{ category }}
+    </button>
+  </aside>
+
+  <div class="products-container">
+    <div class="product" *ngFor="let prod of displayedProducts">
+      <h2>
+        <a class="items" [href]="prod.productLink" target="_blank">{{ prod.name }}</a>
+      </h2>
+      <img [src]="prod.imageLink" [alt]="prod.name">
+      <app-product-item 
+        [product]="prod"
+        (like)="likeProduct($event)"
+        (remove)="removeProduct($event)"
+        (share)="sharing($event)">
+      </app-product-item>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet> 
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
