@@ -1,0 +1,16 @@
+<div *ngIf="album" class="album-container">
+    <i class="bx bx-arrow-back back-arrow" (click)="navBack()"></i>
+    <h2>Album Details</h2>
+    <p><strong>ID:</strong> {{ album.id }}</p>
+    <p><strong>Title:</strong></p>
+    <input type="text" [(ngModel)]="album.title" placeholder="Enter new line">
+    <button class="save-btn" (click)="updateTitle()">Save</button>
+    <a class="photos-link" [routerLink]="['/albums', album.id, 'photos']">View Photos</a>
+</div>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>  
+
+
+
+  
+
+

@@ -1,0 +1,14 @@
+section {
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 15px;
+    line-height: 1.6; 
+    color: rgb(80, 80, 80); 
+    font-size: 18px;
+}
+  
+section p {
+    margin-bottom: 15px; 
+    text-align: justify; 
+}
+  

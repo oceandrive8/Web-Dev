@@ -1,0 +1,10 @@
+<h2>Albums</h2>
+<ul>
+  <li *ngFor="let album of albums">
+    <span (click)="viewAlbum(album.id)">{{ album.title }}</span>
+    <button (click)="deleteAlbum(album.id)" class="delete"><i class='bx bx-trash'></i></button>
+  </li>
+</ul>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+

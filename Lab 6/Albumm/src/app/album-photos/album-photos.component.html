@@ -1,0 +1,17 @@
+<div class="header">
+  <button (click)="navBack()" class="back-button">
+    <i class='bx bx-arrow-back'></i>
+  </button>
+  <h2>Album Photos</h2>
+</div>
+
+<div class="photo-container">
+  <div *ngFor="let photo of photos" class="photo-card">
+    <img [src]="photo.url" [alt]="photo.title">
+    <p>{{ photo.title }}</p>
+  </div>
+</div>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
