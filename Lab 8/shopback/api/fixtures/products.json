@@ -1,0 +1,270 @@
+[
+   {
+       "model": "api.product",
+       "pk": 1,
+       "fields": {
+           "name": "Dior Backstage Glow Face Palette",
+           "price": 28991,
+           "description": "румяна, хайлайтер 004 Rose Gold",
+           "count": 0,
+           "is_active": true,
+           "category": 1
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 2,
+       "fields": {
+           "name": "Rom&nd Glasting Melting Balm",
+           "price": 3186,
+           "description": "07 Mauve Whip блеск для губ розовый",
+           "count": 0,
+           "is_active": true,
+           "category": 2
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 3,
+       "fields": {
+           "name": "Dasique тени прессованные",
+           "price": 18299,
+           "description": "Vegan Mood Shadow Palette #02 Cool Basic",
+           "count": 0,
+           "is_active": true,
+           "category": 1
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 4,
+       "fields": {
+           "name": "Rom&nd Glasting Color Gloss",
+           "price": 3298,
+           "description": "блеск для губ розовый 04 Grapy Way",
+           "count": 0,
+           "is_active": true,
+           "category": 1
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 5,
+       "fields": {
+           "name": "Charlotte Tilbury AirBrush Flawless Finish Powder",
+           "price": 24495,
+           "description": "Powder сухая Fair светло-бежевый",
+           "count": 0,
+           "is_active": true,
+           "category": 1
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 6,
+       "fields": {
+           "name": "CHANEL Les Beiges Water-Fresh Tint",
+           "price": 38200,
+           "description": "A full-coverage powder foundation",
+           "count": 0,
+           "is_active": true,
+           "category": 1
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 7,
+       "fields": {
+           "name": "Flower Knows тени прессованные",
+           "price": 18500,
+           "description": "Strawberry Cupid 02 Strawberry Cassis",
+           "count": 0,
+           "is_active": true,
+           "category": 1
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 8,
+       "fields": {
+           "name": "FENTY BEAUTY Diamond Bomb",
+           "price": 23670,
+           "description": "хайлайтер How Many Carats",
+           "count": 0,
+           "is_active": true,
+           "category": 1
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 9,
+       "fields": {
+           "name": "Rhode Peptide Lip Tint",
+           "price": 9465,
+           "description": "бальзам оттеночный для губ raspberry jelly",
+           "count": 0,
+           "is_active": true,
+           "category": 2
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 10,
+       "fields": {
+           "name": "Dr. Althea крем 345",
+           "price": 8990,
+           "description": "Relief для лица 50 мл",
+           "count": 0,
+           "is_active": true,
+           "category": 2
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 11,
+       "fields": {
+           "name": "Round Lab Mugwort",
+           "price": 3568,
+           "description": "Calming Cleanser пенка 150 мл",
+           "count": 0,
+           "is_active": true,
+           "category": 2
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 12,
+       "fields": {
+           "name": "D'Alba крем Waterfull Tone-up",
+           "price": 13897,
+           "description": "SPF 50+ PA++++ для лица",
+           "count": 0,
+           "is_active": true,
+           "category": 2
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 13,
+       "fields": {
+           "name": "Prada Paradoxe",
+           "price": 78899,
+           "description": "парфюмерная вода EDP 90 мл, для женщин",
+           "count": 0,
+           "is_active": true,
+           "category": 4
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 14,
+       "fields": {
+           "name": "Aesop Hair",
+           "price": 22815,
+           "description": "Volumising Shampoo шампунь 500 мл",
+           "count": 0,
+           "is_active": true,
+           "category": 3
+       }
+   },
+   {
+       "model": "api.product",
+       "pk": 15,
+       "fields": {
+           "name": "Gisou Honey",
+           "price": 38875,
+           "description": "Hair Mask маска 230 мл",
+           "count": 0,
+           "is_active": true,
+           "category": 3
+       }
+   },
+   {
+      "model": "api.product",
+      "pk": 16,
+      "fields": {
+          "name": "SimplyO Refreshing Scalp Shampoo",
+          "price": 11990,
+          "description": "(wild flower) шампунь 500 мл",
+          "count": 0,
+          "is_active": true,
+          "category": 3
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 17,
+      "fields": {
+          "name": "Diptyque Fleur de Peau",
+          "price": 142000,
+          "description": "парфюмерная вода EDP 75 мл",
+          "count": 0,
+          "is_active": true,
+          "category": 4
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 18,
+      "fields": {
+          "name": "La Sultane de Saba Ayurvedique",
+          "price": 23295,
+          "description": "парфюмерная вода EDP 100 мл",
+          "count": 0,
+          "is_active": true,
+          "category": 4
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 19,
+      "fields": {
+          "name": "Shiseido маска Fino Premium Touch",
+          "price": 2389,
+          "description": "восстановление и увлажнение",
+          "count": 0,
+          "is_active": true,
+          "category": 3
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 20,
+      "fields": {
+          "name": "SimplyO",
+          "price": 7990,
+          "description": "состав Hair Serum 80 мл",
+          "count": 0,
+          "is_active": true,
+          "category": 3
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 21,
+      "fields": {
+          "name": "Diptyque Vetyverio",
+          "price": 140570,
+          "description": "парфюмерная вода EDP 75 мл",
+          "count": 0,
+          "is_active": true,
+          "category": 4
+      }
+  },
+  {
+      "model": "api.product",
+      "pk": 22,
+      "fields": {
+          "name": "Dior Miss Dior",
+          "price": 54599,
+          "description": "парфюмерная вода EDP 50 мл",
+          "count": 0,
+          "is_active": true,
+          "category": 4
+      }
+  }
+]
+
+
+
+ 
