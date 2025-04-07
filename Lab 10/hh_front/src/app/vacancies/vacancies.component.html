@@ -1,0 +1,16 @@
+<div>
+  <a (click)="navigateBack()" class="back-link">
+    <i class='bx bx-left-arrow-alt'></i> 
+  </a>  
+    <h3>Vacancies</h3>
+    <ul>
+      <li *ngFor="let vacancy of vacancies">
+        <h4>{{ vacancy.name }}</h4>
+        <p>{{ vacancy.description }}</p>
+        <p><strong>Salary:</strong> {{ vacancy.salary }}</p>
+    </li>
+  </ul>
+</div>
+  
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">

@@ -1,0 +1,12 @@
+<div>
+    <h2>Companies</h2>
+    <ul>
+      <li *ngFor="let company of companies" (click)="onCompanyClick(company.id)">
+        {{ company.name }}
+      </li>
+    </ul>
+</div>
+
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
